@@ -15,9 +15,27 @@ int main(){
     cout<< *(it) << " ";
 
  }
- for (auto it  i < cout; i++)
+ cout<<endl;
+
+ // Traversing The Loop with Auto
+
+ for (auto it=v.begin(); it !=v.end();it++)
  {
-    /* code */
+   cout<<*(it)<<" " ;
  }
+ cout<<endl;
+ v.erase(v.begin()+1);
+ for (auto it=v.begin(); it !=v.end();it++)
+ {
+   cout<<*(it)<<" ";  //5 3 6 4 6
+ }
+ cout<<endl;
+ v.erase(v.begin()+1,v.begin()+4);
+
+ for (auto it=v.begin(); it !=v.end();it++)
+ {
+   cout<<*(it)<<" "; 
+ }
+
  
 }
