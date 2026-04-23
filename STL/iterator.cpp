@@ -36,6 +36,14 @@ int main(){
  {
    cout<<*(it)<<" "; 
  }
-
+ cout<<endl;
+ // Insertion of ELement:
+ v.insert(v.begin(),23);  // Added 23 at starting
+ 
+ for (auto it=v.begin(); it !=v.end();it++){
+   cout<<*(it)<<" "; 
+ }
+ vector<int> copy(2,50);
+ 
  
 }
