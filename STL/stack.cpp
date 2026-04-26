@@ -6,8 +6,10 @@ int main(){
     st.push(2);  // {2,4}
     st.emplace(8); // {8,2,5}
     cout<<"Element at Top is "<<st.top()<<endl;; // element at top
-    cout<<"Size of Stack: "<<st.size();
+    cout<<"Size of Stack: "<<st.size() <<endl;
     stack<int>s2;
-    st.swap(s2);
+    st.swap(s2);  //swaping
     cout<<s2.top();
+
+    
 }
